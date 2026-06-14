@@ -1,0 +1,53 @@
+:root {
+  /* Surfaces */
+  --color-bg: #FFFFFF;
+  --color-surface: #FAFAFA;
+  --color-surface-raised: #FFFFFF;
+  --color-border: #E8E8E8;
+  --color-border-strong: #C0C0C0;
+  --color-border-focus: #000000;
+
+  /* Text — used on --color-bg (#FFFFFF) */
+  --color-text-primary: #0A0A0A;        /* ~21:1 on white — AAA */
+  --color-text-secondary: #444444;      /* ~9.7:1 on white — AAA */
+  --color-text-muted: #767676;          /* ~4.5:1 on white — AA pass */
+  --color-text-disabled: #AAAAAA;       /* intentionally below AA — disabled only */
+  --color-text-on-accent: #FFFFFF;      /* on --color-accent */
+
+  /* Accent — black */
+  --color-accent: #0A0A0A;
+  --color-accent-hover: #333333;
+
+  /* Status — always paired with icon + label, never color alone */
+  --color-status-fail: #B91C1C;         /* ✗ — ~7.2:1 on white — AAA */
+  --color-status-fail-bg: #FEF2F2;
+  --color-status-warn: #92400E;         /* ~ — ~7.5:1 on white — AAA */
+  --color-status-warn-bg: #FFFBEB;
+  --color-status-pass: #065F46;         /* ✓ — ~8.6:1 on white — AAA */
+  --color-status-pass-bg: #ECFDF5;
+
+  /* Typography */
+  --font-sans: system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', 'Fira Code', monospace;
+  --text-xs: 0.6875rem;
+  --text-sm: 0.8125rem;
+  --text-base: 0.9375rem;
+  --text-lg: 1.0625rem;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+
+  /* Border radius */
+  --radius-sm: 3px;
+  --radius-md: 5px;
+  --radius-lg: 8px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.08);
+  --shadow-md: 0 4px 12px -2px rgb(0 0 0 / 0.12);
+}
